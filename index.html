@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>TreaBeane | Java Developer</title>
+
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <script src="https://kit.fontawesome.com/11d71f3224.js"></script>
+  </head>
+  <body>
+    <!-- Resume Popup -->
+    <div id="resume-popup">
+      <div class="container">
+        <div class="card">
+          <h1>
+            Resume Options
+            <span id="resume-popup-exit" onclick="toggleResumePopup()"
+              ><i class="fas fa-times"></i
+            ></span>
+          </h1>
+          <div id="choice">
+            <div class="resume-card">
+              <div>
+                <img src="./img/resume-icon.svg" alt="" />
+              </div>
+              <div>
+                <h1>Light Resume</h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Nostrum, quisquam.
+                </p>
+              </div>
+            </div>
+            <div class="resume-card">
+              <div>
+                <img src="./img/resume-dark-icon.svg" alt="" />
+              </div>
+              <div>
+                <h1>Dark Resume</h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Nostrum, quisquam.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section id="main">
+      <div>
+        <nav>
+          <ul>
+            <li><i class="fab fa-linkedin-in"></i></li>
+            <li><i class="fab fa-github"></i></li>
+            <li><i id="btn-menu" class="fas fa-bars"></i></li>
+          </ul>
+        </nav>
+      </div>
+      <h1>Trea Beane</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+        eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+        voluptua.
+      </p>
+      <div id="btn-resume" onclick="toggleResumePopup()" class="btn">
+        <a>Resume</a>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="container">
+        <div class="item">
+          <div>
+            <img src="./img/front-end-icon.svg" alt="Front-End" />
+          </div>
+          <div>
+            <h1>Front-End</h1>
+            <p>
+              HTML, CSS, JavaScript, JQuery, React
+            </p>
+          </div>
+        </div>
+        <div class="item">
+          <div>
+            <img src="./img/back-end-icon.svg" alt="Front-End" />
+          </div>
+          <div>
+            <h1>Back-End</h1>
+            <p>
+              Java, Spring Boot, Hibernates, and Apache Tom Cat
+            </p>
+          </div>
+        </div>
+        <div class="item">
+          <div>
+            <img src="./img/tools-icon.svg" alt="Front-End" />
+          </div>
+          <div>
+            <h1>Tool Set</h1>
+            <p>
+              Intellij IDEA, VSCODE, Adobe Photoshop, and Adobe XD
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="container">
+        <div class="item">
+          <h1>Project 1</h1>
+          <img src="./img/Heavens-Gate-Cover.jpg" alt="" />
+          <p>
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
+          </p>
+          <div class="project-btns">
+            <div class="btn btn-primary"><a>Live Code</a></div>
+            <div class="btn btn-primary"><a>Source</a></div>
+          </div>
+        </div>
+        <div class="item">
+          <h1>Project 2</h1>
+          <img src="./img/Heavens-Gate-Cover.jpg" alt="" />
+          <p>
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
+          </p>
+          <div class="project-btns">
+            <div class="btn btn-primary"><a>Source</a></div>
+          </div>
+        </div>
+        <div class="item">
+          <h1>Project 3</h1>
+          <img src="./img/Heavens-Gate-Cover.jpg" alt="" />
+          <p>
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
+          </p>
+          <div class="project-btns">
+            <div class="btn btn-primary"><a>Live Code</a></div>
+            <div class="btn btn-primary"><a>Source</a></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div id="form">
+        <h2>Contact Me</h2>
+        <p>Name:</p>
+        <input type="text" placeholder="John Doe" />
+        <p>Email:</p>
+        <input type="email" placeholder="john.doe@example.com" />
+        <p>Message:</p>
+        <textarea name="message" id="" cols="1" rows="1"></textarea>
+        <div class="btn btn-primary"><a>Send</a></div>
+      </div>
+    </section>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>
