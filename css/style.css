@@ -279,9 +279,10 @@ body {
 }
 
 #contact {
-  background: url("../img/wave-3.svg") center center/cover;
-  height: 92vh;
+  background: url("../img/wave-3.svg") center center/cover no-repeat;
+  padding-bottom: 3rem;
 }
+
 /* Contact Me */
 #contact #form {
   background: #f7f7f7;
@@ -289,10 +290,9 @@ body {
   font-size: 2.25rem;
   color: #160536;
   max-width: 512px;
-  box-shadow: rgba(0, 0, 0, 0.11) 3px 3px 11px;
+  box-shadow: #0000001c 3px 3px 11px;
   margin-left: 5%;
   padding: 2rem;
-  margin: 50px;
 }
 
 #contact #form h2 {
@@ -327,22 +327,11 @@ body {
   align-self: center;
   flex-basis: max-content;
   margin-top: 5%;
+  margin-bottom: 25px;
 }
 
 #contact #form .btn a {
   font-size: 2rem;
-}
-
-footer {
-  height: 100px;
-  background: #160536;
-  text-align: center;
-}
-
-footer p {
-  font-size: 1.25rem;
-  line-height: 100px;
-  color: #f7f7f7;
 }
 
 /* Tablet */
