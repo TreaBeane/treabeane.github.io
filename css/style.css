@@ -74,15 +74,14 @@ body {
 }
 
 .resume-card {
-  padding: 2rem;
-  margin: 2rem;
+  padding: 1rem;
+  margin: 1rem;
   border: #160536 3px solid;
   border-radius: 35px;
   flex: 1;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  max-height: 30vh;
 }
 
 .resume-card img {
@@ -107,8 +106,7 @@ body {
 }
 
 #resume-popup .container .card {
-  width: 20%;
-  min-width: 500px;
+  max-width: 50%;
 }
 
 #resume-popup .container .card #choice .resume-card {
@@ -125,6 +123,10 @@ body {
   padding: 0.5rem;
 }
 
+#resume-popup p {
+  line-height: 25px;
+}
+
 #resume-popup-exit {
   cursor: pointer;
   float: right;
@@ -133,10 +135,6 @@ body {
 
 #main {
   background: url("../img/Wave-1.svg") no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
   color: #f7f7f7;
   height: 110vh;
 }
@@ -170,17 +168,17 @@ body {
   text-align: center;
 }
 
-#main nav ul li {
+#main nav ul li a {
   color: #ff006a;
   font-size: 2.5rem;
   padding-bottom: 2px;
 }
 
-#main nav ul li i {
+#main nav ul li a i {
   border-bottom: #ff006a 2px solid;
 }
 
-#main nav ul li i:hover {
+#main nav ul li a i:hover {
   cursor: pointer;
 }
 
@@ -236,7 +234,6 @@ body {
   background: #f7f7f7;
   border-radius: 35px;
   box-shadow: rgba(0, 0, 0, 0.11) 3px 3px 11px;
-  width: 30%;
   text-align: center;
   margin: 3%;
   flex: 1;
@@ -280,7 +277,7 @@ body {
 
 #contact {
   background: url("../img/wave-3.svg") center center/cover no-repeat;
-  padding-bottom: 3rem;
+  padding-bottom: 5vh;
 }
 
 /* Contact Me */
@@ -448,7 +445,9 @@ body {
     margin-top: 30vw;
     width: 80vw;
   }
-
+  #resume-popup .container .card {
+    max-width: 100%;
+  }
   #projects .container {
     flex-direction: column;
   }
@@ -461,12 +460,15 @@ body {
   #projects .container .item p {
     display: none;
   }
+
   #skills .container .item {
     padding: 0;
   }
+
   #skills .container .item img {
     height: 20vh;
   }
+
   #skills .container .item h1 {
     font-size: 1.5rem;
     padding-top: 2.5rem;
