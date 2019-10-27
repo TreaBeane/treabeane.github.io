@@ -134,7 +134,7 @@ body {
 }
 
 #main {
-  background: url("../img/Wave-1.svg") no-repeat center center;
+  background: url("../img/wave-1.svg") center no-repeat;
   color: #f7f7f7;
   height: 110vh;
 }
@@ -379,6 +379,10 @@ body {
 
 /* Phone */
 @media only screen and (max-width: 425px) {
+  .btn a {
+    color: #f7f7f7;
+  }
+
   #main h1 {
     padding: 0;
     padding-left: 5vw;
