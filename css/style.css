@@ -327,10 +327,10 @@ body {
   #main h1 {
     padding-top: 10vw;
   }
-
+/* 
   #main .btn {
     width: 50vw;
-  }
+  } */
 
   #skills .container {
     flex-flow: column;
@@ -361,11 +361,11 @@ body {
     padding: 0;
     margin: 0;
   }
-
+/* 
   #projects .container .item:last-child {
     display: none;
     flex: 0;
-  }
+  } */
 }
 
 /* Phone */
@@ -389,6 +389,11 @@ body {
     width: auto;
   }
 
+  #main nav {
+    padding-left: 1vw;
+  }
+  
+/* 
   #main nav ul {
     display: flex;
     flex-direction: row;
@@ -419,7 +424,7 @@ body {
 
   #main nav ul li:last-child i {
     border: none;
-  }
+  } */
 
   #btn-menu {
     display: block;
@@ -474,11 +479,4 @@ body {
     line-height: 20px;
   }
 
-  #contact #form {
-    margin: 1rem;
-  }
-
-  #contact #form textarea {
-    height: 30vh;
-  }
 }
