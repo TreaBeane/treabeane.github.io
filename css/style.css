@@ -137,6 +137,7 @@ body {
   background: url("../img/wave-1.svg") center no-repeat;
   color: #f7f7f7;
   height: 110vh;
+  padding-top: 100px;
 }
 
 #main h1 {
@@ -156,26 +157,14 @@ body {
   font-size: 1.25rem;
 }
 
+#main nav {
+  padding-left: 13vw;
+}
+
 #main nav ul {
   display: flex;
   list-style: none;
-  flex-direction: row-reverse;
   padding: 15px 45px;
-}
-
-#main nav ul li {
-  padding: 15px;
-  text-align: center;
-}
-
-#main nav ul li a {
-  color: #ff006a;
-  font-size: 2.5rem;
-  padding-bottom: 2px;
-}
-
-#main nav ul li a i {
-  border-bottom: #ff006a 2px solid;
 }
 
 #main nav ul li a i:hover {
@@ -185,7 +174,7 @@ body {
 #main .btn {
   width: 150px;
   margin-top: 5%;
-  margin-left: 20vw;
+  margin-left: 3vw;
 }
 
 #skills {
